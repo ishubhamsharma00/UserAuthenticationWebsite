@@ -4,7 +4,7 @@ export default function UserProfile({ params }: any) {
             <span>The boss is Here!!</span>
             <div className="">
                 <span>This is profile page no.</span>
-                <span className="p-4 bg-blue-300 text-black ">
+                <span className="p-4 bg-blue-300  text-black ">
                     {params.id}
                 </span>
             </div>
